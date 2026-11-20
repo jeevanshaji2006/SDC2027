@@ -1,0 +1,43 @@
+# Build outputs
+build/
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+
+# IDE
+.vscode/
+.idea/
+.settings/
+.metadata/
+*.launch
+.cproject.bak
+
+# STM32CubeMX backups
+*.ioc.bak
+.mxproject
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs and large data (use GitHub Releases for these)
+*.csv
+*.log
+logs/
+*.mp4
+*.mov
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
